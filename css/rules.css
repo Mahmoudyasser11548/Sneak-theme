@@ -1,0 +1,61 @@
+:root {
+  --color-1: #fff;
+  --color-2: #ff5672;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  direction: ltr;
+}
+
+.container {
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+/* mobile */
+@media (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+@media (min-width: 375px) {
+  .container {
+    width: 370px;
+  }
+}
+@media (min-width: 425px) {
+  .container {
+    width: 420px;
+  }
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
